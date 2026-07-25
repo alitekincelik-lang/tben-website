@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" role="img" aria-label="TBEN Turkish British Enterprise Network logo">
+  <defs>
+    <linearGradient id="goldRing" x1="130" y1="500" x2="870" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b88416"/>
+      <stop offset="0.22" stop-color="#efd98b"/>
+      <stop offset="0.48" stop-color="#c69422"/>
+      <stop offset="0.72" stop-color="#f1dd93"/>
+      <stop offset="1" stop-color="#b88416"/>
+    </linearGradient>
+    <linearGradient id="goldDetail" x1="240" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b88416"/>
+      <stop offset="0.5" stop-color="#d5ab47"/>
+      <stop offset="1" stop-color="#b88416"/>
+    </linearGradient>
+    <style>
+      .gold-stroke{fill:none;stroke:url(#goldDetail);stroke-linecap:round;stroke-linejoin:round}
+      .gold-fill{fill:url(#goldDetail)}
+      .navy{fill:#132b5b}
+      .dark{fill:#111320}
+      .serif{font-family: Georgia, "Times New Roman", serif;}
+      .sans{font-family: Arial, Helvetica, sans-serif;}
+    </style>
+  </defs>
+
+  <rect width="1000" height="1000" fill="#ffffff"/>
+  <circle cx="500" cy="500" r="389" fill="#ffffff"/>
+  <circle cx="500" cy="500" r="392" fill="none" stroke="url(#goldRing)" stroke-width="16"/>
+
+  <g transform="translate(0,4)">
+    <path d="M224 420 C352 389, 648 389, 776 420" class="gold-stroke" stroke-width="3"/>
+    <path d="M445 393 C482 389, 518 389, 555 393" class="gold-stroke" stroke-width="6"/>
+
+    <path d="M410 250 L410 385" class="gold-stroke" stroke-width="8"/>
+    <path d="M440 250 L440 385" class="gold-stroke" stroke-width="8"/>
+    <path d="M560 250 L560 385" class="gold-stroke" stroke-width="8"/>
+    <path d="M590 250 L590 385" class="gold-stroke" stroke-width="8"/>
+
+    <path d="M410 250 L440 250" class="gold-stroke" stroke-width="8"/>
+    <path d="M410 283 L440 283" class="gold-stroke" stroke-width="6"/>
+    <path d="M560 250 L590 250" class="gold-stroke" stroke-width="8"/>
+    <path d="M560 283 L590 283" class="gold-stroke" stroke-width="6"/>
+
+    <path d="M262 404 C336 377, 384 321, 410 270" class="gold-stroke" stroke-width="2.2"/>
+    <path d="M303 408 C363 379, 406 332, 423 287" class="gold-stroke" stroke-width="2.2"/>
+    <path d="M341 411 C389 384, 422 344, 437 307" class="gold-stroke" stroke-width="2.2"/>
+
+    <path d="M738 404 C664 377, 616 321, 590 270" class="gold-stroke" stroke-width="2.2"/>
+    <path d="M697 408 C637 379, 594 332, 577 287" class="gold-stroke" stroke-width="2.2"/>
+    <path d="M659 411 C611 384, 578 344, 563 307" class="gold-stroke" stroke-width="2.2"/>
+  </g>
+
+  <text x="500" y="555" text-anchor="middle" class="navy serif" font-size="155" letter-spacing="9">TBEN</text>
+
+  <g>
+    <line x1="230" y1="592" x2="472" y2="592" class="gold-stroke" stroke-width="3"/>
+    <line x1="528" y1="592" x2="770" y2="592" class="gold-stroke" stroke-width="3"/>
+    <rect x="492" y="582" width="16" height="16" transform="rotate(45 500 590)" class="gold-fill"/>
+  </g>
+
+  <text x="500" y="678" text-anchor="middle" class="dark sans" font-size="30" letter-spacing="7">TURKISH BRITISH</text>
+  <text x="500" y="716" text-anchor="middle" class="dark sans" font-size="30" letter-spacing="7">ENTERPRISE NETWORK</text>
+</svg>
