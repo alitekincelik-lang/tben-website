@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tben.uk/sitemap.xml
